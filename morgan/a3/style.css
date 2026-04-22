@@ -1,0 +1,50 @@
+div {
+	padding: 5px;
+    background: linear-gradient(#ff0000, #ff4000, #ff8000, #ffbf00, #ffff00, #bfff00, #80ff00, #40ff00, #00ff00, #00ff40, #00ff80, #00ffbf, #00ffff, #00bfff, #0080ff, #0040ff, #0000ff, #4000ff, #8000ff, #bf00ff, #ff00ff, #ff00bf, #ff0080, #ff0040, #ff0000);
+    background-size: 1800% 1800%;
+    -webkit-animation: rainbow 10000s ease infinite;
+    animation: rainbow 10000s ease infinite;
+}
+
+td {
+	height: 100px;
+}
+ 
+
+@keyFrames rainbow {
+    0%{background-position:0% 82%}
+    25%{background-position: 50% 9.5%}
+    50%{background-position:100% 19%}
+    75%{background-position: 75% 41%}
+    100%{background-position:0% 82%}
+}
+
+
+
+body { 
+	background-color: gray;
+	margin: 25px;
+}
+
+a{
+	color:yellow;
+}
+
+h2{
+	color: cornflowerblue;
+}
+
+th,td {
+	text-align:left;
+	border: 2px solid white;
+	padding: 5px;
+}
+
+table {
+	border-collapse: collapse;
+	
+}
+.hideme {
+    color: gray;
+}
+

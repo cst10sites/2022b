@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="EGG.ico">
+<title>Assignment 4: Countdown Timer</title>
+<link rel="stylesheet" href ="style.css">
+<!--External JavaScript-->
+</head>
+<body>
+<h1>Egg-cellent Timer</h1>
+<h3>EGGZ</h3>
+<form>
+    <label>What consistency of yolk do you want your eggz?</label>
+    <select id="eggValue"><!--no input for dropdown-->
+        <option value="soft">Soft (3 min)</option>
+        <option value="medium">Medium (6 min)</option>
+        <option value="hard">Hard (12 min)</option>
+    </select>
+    <br>
+    <input type="button" id="startBtn" value="Start" onclick="startButton();">
+    <input type="button" id="resetBtn" value="Reset" onclick="resetAll();">
+	<br>
+</form>
+<h2 id="timeDisplay">Time Left: 0:00.00</h2>
+<img src="https://i.pinimg.com/originals/32/f5/25/32f5259dda24e6426fef7a0853a55039.gif" alt="Egg-xersice" style="width:250px;height:300px;">
+
+
+
+
+
+
+
+
+
+
+
+
+<script src ="script.js"></script>
+</body>
+</html>

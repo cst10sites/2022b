@@ -1,0 +1,35 @@
+body { 
+	background-color: brown;
+	margin: 25px;
+}
+
+
+
+h2{
+	color: black;
+}
+
+h3{
+	color: yellow;
+}
+
+#startBtn {
+  background-color: #4CAF50; /* Green */
+  border-width: 3px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#resetBtn {
+  background-color: red; 
+  border-width: 3px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

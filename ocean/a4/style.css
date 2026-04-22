@@ -1,0 +1,178 @@
+body {
+  display: flex;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.endScreen {
+  position: absolute;
+  background-color: #000;
+  width: 60%;
+  height: 50%;
+  display: none;
+}
+
+.container {
+  background-color: #808080;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 2rem;
+  user-select: none;
+  border-radius: 35px;
+  border: 1px solid black;
+}
+
+.seconds {
+  grid-area: secNum;
+}
+.minutes {
+  grid-area: minNum;
+}
+.milliseconds {
+  grid-area: millNum;
+}
+.minText {
+  grid-area: minText;
+}
+.secText {
+  grid-area: secText;
+}
+.millText {
+  grid-area: millText;
+}
+.srtTime {
+  grid-area: startBtn;
+}
+.twoInOne {
+  grid-area: pS;
+}
+
+.clock {
+  display: grid;
+  grid-template-areas:
+    "minNum secNum millNum"
+    "minText secText millText"
+    "... pS startBtn";
+  grid-column-gap: 5px;
+  justify-items: center;
+  justify-content: center;
+  align-items: start;
+  font-size: 1.2em;
+}
+
+.select {
+  margin-top: 1rem;
+  width: 5rem;
+  height: 3rem;
+  font-size: 1rem;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+}
+
+.select:hover {
+  opacity: 0.9;
+}
+
+.srtTime {
+  margin-top: 1rem;
+  width: 5rem;
+  height: 3rem;
+  font-size: 1rem;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #000;
+  background-color: lime;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+.srtTime:hover {
+  opacity: 0.9;
+}
+
+.srtTime:active {
+  background-color: lime;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
+}
+
+.stopTime {
+  display: none;
+  margin-top: 1rem;
+  width: 5rem;
+  height: 3rem;
+  font-size: 1rem;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #000;
+  background-color: lime;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+.stopTime:hover {
+  opacity: 0.9;
+}
+
+.stopTime:active {
+  background-color: lime;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
+}
+
+#text1 {
+  margin-top: 1rem;
+  font-size: 0.8em;
+  color: white;
+}
+#text2 {
+  margin-top: 1rem;
+  font-size: 0.8em;
+  color: white;
+}
+#text3 {
+  margin-top: 1rem;
+  font-size: 0.8em;
+  color: white;
+}
+
+
+.minutes {
+  color: #fff;
+  background-color: #000;
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  border: 1px solid white;
+}
+
+.seconds {
+  color: #fff;
+  background-color: #000;
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  border: 1px solid white;
+}
+
+.milliseconds {
+  color: #fff;
+  background-color: #000;
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  border: 1px solid white;
+}

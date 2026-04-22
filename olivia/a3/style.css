@@ -1,0 +1,30 @@
+body {
+	
+	
+	background-color: #EB984E;
+	margin: 30px;
+}
+
+div {
+	background-color: black;
+	color: white;
+	padding: 20px;
+}
+
+h2 {
+	color: #CCCCFF;
+}
+ a {
+	 color: yellow;
+ }
+ 
+ table {
+	border-collapse: collapse;
+ }
+
+ 
+ th, td {
+	 text-align: left;
+	 border: 2px inset orange;
+	 padding: 5px
+ }

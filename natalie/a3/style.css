@@ -1,0 +1,23 @@
+div {
+	background-color: darkslategrey;
+	padding: 5%;
+	color: white;
+}
+body{
+	background-color: slategrey;
+	color: yellow;
+	
+}
+td {
+	border: 1px solid slategrey;
+	padding: 2px;
+}
+th {
+	border: 2px solid slategrey;
+	padding: 0px;
+}
+table {
+	border: 2px solid slategrey;
+	padding: 0px;
+	
+}

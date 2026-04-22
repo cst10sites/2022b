@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="jquery-3.6.0.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="rockyBoy.png" type="image/x-icon">
+    <title>Assignment 4</title>
+  </head>
+  <body>
+    <div class="endScreen"> </div>
+    <div class="container">
+      <div class="clock">
+        <div class="minutes" id="minutes">3m</div>
+        <div class="seconds" id="seconds">0s</div>
+        <div class="milliseconds" id="milliseconds">0ms</div>
+
+        <div id="text1" class="minText">Minutes</div>
+        <div id="text2" class="secText">Seconds</div>
+        <div id="text3" class="millText">Milliseconds</div>
+
+        <span class="twoInOne">
+	<select id="select" class="select" onclick="selectOnDisplay()">
+		<option value="1">Soft</option>
+		<option value="2">Medium</option>
+		<option value="3">Hard</option>
+	</select>
+    <button id="stpClickBtn" class="stopTime" onclick="stpClickBtn()">PAUSE</button>
+        </span>
+		<button id="srtClickBtn" class="srtTime" onclick="srtClickBtn()">START</button>
+    </div>
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>

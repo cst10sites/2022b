@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="favicon.ico">
+<title>Assignment 4</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Eggcellent timer</h1>
+
+<p>By Olivia </p>
+<form>
+<label>What consistency of yolk do you want your eggs?</label>
+ <select id="consistency"><!--no input for dropdown-->
+        <option value="1">soft (3 mins)</option>
+        <option value="2">medium (6 mins)</option>
+        <option value="3">hard (12 mins)</option>
+    </select>
+	<br><br>
+	<input type="button" id="startBtn" value="Start" onclick="startButton();">
+</form>
+
+<h2 id="timeDisplay"> Time left: 0.0</h2>
+
+
+
+<!--External JavaScript-->
+<script src="script.js"></script>
+
+</body>
+</html>

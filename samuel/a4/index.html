@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel = 'stylesheet' href = 'style.css'>
+<meta charset="UTF-8">
+<title>Lesson 4: HTML B</title>
+<link rel = 'shortcut icon' href = 'preview.jpg' type = 'image/x-icon'>
+</head>
+
+<body>
+<h1>Eggcellent Timer</h1>
+ 
+<form> 
+	<label>What consistency of yolk do you want your eggs?</label><br>
+	<select id="consistency">
+			<option value="1">Soft (3 min) </option>
+			<option value="2">Medium (6 min) </option>
+			<option value="3">Hard (12 min) </option>
+		</select>
+		<br>
+		<input type="button" id="startBtn" value="Start" onclick="startButton();">
+		<input type="button" id="stopBtn" value="Stop" onclick="stopButton();">
+</form>
+
+<h2 id="timeDisplay">Time Left: 0.0</h2>
+		
+		
+<script src="script.js"> </script>
+<!---JavaScript: move to external file later-->

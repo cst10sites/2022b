@@ -1,0 +1,64 @@
+body {
+	margin: 0px 15%;
+	font-family: papyrus;
+	color: lime;
+	background-size: cover;
+	background-position: center;
+}
+
+h1 {
+	margin: 50px 40%;
+	color: lime;
+	font-family: papyrus;
+}
+
+h2 {
+	margin: 50px 40%;
+	color: lime;
+}
+
+th {
+	border: 5px solid;
+	text-align: left;
+	padding: 5px;
+	border-style: inset;
+}
+
+td {
+	border: 5px solid ;
+	text-align: center;
+	padding: 5px;
+	border-style: inset;
+}
+
+table {
+	border-collapse: collapse;
+	border-style: inset;
+}
+
+ul.a {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	background-color: rgba;
+}
+
+li.a a {
+	display: block;
+	color: lime;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 19px;
+	
+}
+
+
+li.a a:hover:not(.active) {
+	background-color: DarkBlue;
+	
+}
+
+
+

@@ -1,0 +1,76 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 2: Internal CSS</title>
+<!--INTERNAL CSS BEGINS-->
+<style>
+body {
+	background-color: black;
+	color: white;
+	margin: 200px;
+	/*margin: topbottom leftright */
+	font-family: Arial;
+}
+
+h2 {
+	color: yellow;
+}
+
+a {
+	color: hotpink;
+}
+
+a:visited {
+	color: pink;
+}
+
+a:hover {
+	color: green;
+}
+
+/* .class */
+.btn{
+color: red;
+	background-color: green;
+	padding: 15px 25px;
+	border: 5px solid;
+	border-radius: 25px;
+	display: inline-block;
+	text-decoration: none;
+
+</style>
+<!--INTERNAL CSS ENDS-->
+</head>
+<body>
+<h1 style="color: aqua;">Internal CSS</h1>
+<h2>What is CSS?</h2>
+<p>HTML controls the CONTENT (what is on the page) while
+CSS controls the DESIGN/LAYOUT (how it looks on the page).
+There are 3 types of CSS:
+inline CSS (from img style="width:25%;" in Lesson 1),
+internal CSS (in Lesson 2),
+external CSS (in Lesson 4). </p>
+
+
+<h2>Inline CSS</h2>
+<p><span style="color: red;">Inline CSS</span> controls the design on PART of a tag.
+We used the span style="..." to control this behavior.</p>
+
+
+<h2>Internal CSS</h2>
+<p>Internal CSS controls the design on the ENTIRE page and ALL specific tags.
+We used the syle tag in the head section to control this behavior. </p>
+
+
+
+<h2>Links and Buttons</h2>
+<p>Refer to <a target="_blank" href="https://www.w3schools.com/css/default.asp">w3schools.com</a> for details!
+<br>
+<a class="btn" target="_blank" href="https://www.w3schools.com/css/default.asp">w3schools.com</a>
+<span class="btn">Useless</span>
+
+</p>
+</body>
+</html>
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+ <script type="text/javascript" src="script.js"></script>
+<title> Soccer by Patricio </title>
+</head>
+<body>
+
+<h2>Index </h2>
+
+<ul class="a">
+  <li class="a"><a class="active" href="index.html">Home</a></li>
+  <li class="a"><a href="indextopplayers.html"> Top Players </a></li>
+  <li class="a"><a href="indexcompetitions.html">Competitions</a></li>
+  <li class="a"><a href="indexquiz.html">Quiz</a></li>
+</ul>
+
+<div id= "title">
+</div>
+ <div id="title"><h1>Quiz</h1></div>
+
+<div id="polarQuiz">
+<form id="quiz" name="quiz">
+	
+	<p>1.What is the name of the German league?</p>
+	<p><input type="radio" id="Deutsche Liga" name="question1" value="Deutsche Liga">a. Deutsche Liga</p>
+	<p><input type="radio" id="Bundesliga" name="question1" value="Bundesliga">b. Bundesliga</p>
+	<p><input type="radio" id="GermaSoccer" name="question1" value="GermaSoccer">c. GermaSoccer</p>
+	
+	<p>2. What Countries have soccer leagues?</p>
+	<p><input type="radio" id="Italy" name="question2" value="Italy">a. Italy</p>
+	<p><input type="radio" id="France" name="question2" value="France">b. France</p>
+	<p><input type="radio" id="Germany" name="question2" value="Germany">c. Germany</p>
+	<p><input type="radio" id="All_of_the_above" name="question2" value="All of the above">d. All of the above</p>
+	
+	<p>3. Which of these players is in the top 10 list?</p>
+	<p><input type="radio" id="Rivaldinho" name="question3" value="Rivaldinho">a. Rivaldinho</p>
+	<p><input type="radio" id="Ronaldinho" name="question3" value="Ronaldinho">b. Ronaldinho</p>
+	
+	<p>4. What century was the FA established?</p>
+	<p><input type="radio" id="13th" name="question4" value="13th">a. 13th</p>
+	<p><input type="radio" id="21th" name="question4" value="21th">b. 21th</p>
+	<p><input type="radio" id="19th" name="question4" value="19th">c. 19th</p>
+	<p><input type="radio" id="all_of_the_above" name="question4" value="all of the above">d. all of the above</p>
+	
+	<p>5. What is the biggest competition in soccer?</p>
+	<p><input type="radio" id="Worldcup" name="question5" value="Worldcup">a. Worldcup</p>
+	<p><input type="radio" id="Champions League" name="question5" value="Champions League">b. Champions League</p>
+	<p><input type="radio" id="Premier League" name="question5" value="Premier League">c. Premier League</p>
+	<p><input type="radio" id="all_of_the_above" name="question4" value="all of the above">d. all of the above</p>
+
+	
+	<input type="button" id="button" value="I'm Finished." onclick="finish()">
+	<input type="button" id="Resetbutton" value="Reset." onclick="reset()">
+</div>
+<div id = "afterSubmit">
+
+<p id="message" ></p>
+<p id="numberCorrect"></p>
+</div>
+</form>
+    </div>
+</body>
+</html>

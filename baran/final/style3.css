@@ -1,0 +1,121 @@
+body {
+		background-image: url("https://upload.wikimedia.org/wikipedia/en/3/39/The_Weeknd_-_Starboy.png");
+		margin: 50px;
+}
+
+div {
+	background-color: #e6005c;
+	padding: 25px 50px;
+	color: LightGrey;
+	border-style: solid;
+	border-color: #003380;
+}
+
+h1 {
+	color: Gold;
+	text-align: center;
+}
+
+h2 {
+	color: Gold;
+	text-align: center;
+}
+
+ol {
+	text-align:center;
+	background-color: #cc0052;
+	color: Gold;
+	padding: 10px;
+}
+
+a.song {
+	padding: 15px 10% 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	/*border-style: solid;
+	border-color: #c2d6ff;*/
+	float: center;
+	color: gold;
+	background-color: #cc0052;
+}
+
+.song a:hover{
+	background-color: #e6005c;
+}
+
+a.button {
+	padding: 15px 10% 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-style: solid;
+	border-color: #003380;
+	float: left;
+	color: Gold;
+	background-color: #e6005c;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  padding-right: 10;
+}
+
+ li a, .dropbtn {
+	font-size: 20px;
+  display: inline-block;
+  min-width: 60px;
+  color: pink;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .button {
+	background-color: #003380;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #e6005c;
+  min-width: 100px;
+  z-index: 1;
+	opacity: 95%
+}
+
+.dropdown-content a {
+  color: Gold;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #e6005c;
+	color: DarkBlue;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.b {
+	margin: 20px;
+	 border:0px;
+	 width:250px;
+	 height:200px;
+	 font-size: 24px;
+	 color: white
+}

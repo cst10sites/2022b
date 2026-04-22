@@ -1,0 +1,123 @@
+body {
+		background-image: url("https://upload.wikimedia.org/wikipedia/en/b/bd/The_Weeknd_-_Beauty_Behind_the_Madness.png");
+		margin: 50px;
+}
+
+div {
+	background-color: Grey;
+	padding: 25px 50px;
+	color: LightGrey;
+	border-style: solid;
+	border-color: LigtGrey;
+	opacity: 98%;
+}
+
+h1 {
+	color: Silver;
+	text-align: center;
+}
+
+h2 {
+	color: Silver;
+	text-align: center;
+}
+
+ol {
+	text-align:center;
+	background-color: #737373;
+	color: Silver;
+	padding: 10px;
+}
+
+a.song {
+	padding: 15px 10% 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	/*border-style: solid;
+	border-color: #c2d6ff;*/
+	float: center;
+	color: Silver;
+	background-color: #737373;
+}
+
+.song a:hover{
+	background-color: Grey;
+}
+
+a.button {
+	padding: 15px 10% 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-style: solid;
+	border-color: LigtGrey;
+	float: left;
+	color: LightGrey;
+	background-color: Grey;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  padding-right: 10;
+}
+
+ li a, .dropbtn {
+	font-size: 20px;
+  display: inline-block;
+  min-width: 60px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .button {
+	background-color: LightGrey;
+	color: Grey;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: grey;
+  min-width: 100px;
+  z-index: 1;
+	opacity: 95%
+}
+
+.dropdown-content a {
+  color: Silver;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: grey;
+	color: #383838;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.b {
+	margin: 20px;
+	border=0px;
+	width:250px;
+	height:200px;
+	font-size: 24px;
+	color: white
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="favicon.ico">
+<title>Assignment 4</title>
+</head>
+<body>
+
+<h2>Egg Timer</h2>
+<form>
+    <label>What consistency of yolk do you want your eggs?</label><br>
+    <select id="consistency">
+        <option value="Soft">Soft (3min)</option>
+        <option value="Medium">Medium (6min)</option>
+        <option value="Hard">Hard (10min)</option>
+    </select>
+    <br><br>
+	
+
+<input type="button" value="Start" id="startBtn" onclick="startButton();">
+<!--input type="button" value="Pause" id="PauseBtn" onclick="pauseButton();"-->
+<!--input type="button" id="pauseBtn" value="Pause" onclick="pauseButton()";-->
+<input type="button" value="Reset" id="stopBtn" onclick="stopButton();">
+
+<br> 
+</form> 
+<h2 id="timeDisplay">Time Left: 0.0 sec</h2>
+
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+
+</body>
+</html>

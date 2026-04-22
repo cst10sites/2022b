@@ -1,0 +1,28 @@
+body {
+	background-color: purple;
+	margin: 50px;
+}
+
+div {
+	background-color: black;
+	color: white;
+	padding: 25px 50px;
+	color: white
+}
+
+h2 {
+	color: gold;
+}
+
+h1 {
+	color: gold;
+}
+
+th, td {
+	border: 2px solid gold
+	
+}
+
+table {
+	border-collapse: collapse;
+}

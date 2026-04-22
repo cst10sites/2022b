@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset= "UTF-8">
+<title> Assignment 3 </title>
+</head>
+<body>
+<h2>Table</h2>
+<p>Click <a href="index.html">here</a> to return to homepage.<p>
+<p>This is a table</p>
+<!--<style>
+body {
+	background-color: black;
+	color: gold;
+	margin: 200px 100px;
+	/* margin: topbottom leftright; */
+	font-family: Arial;
+}
+</style>-->
+<link rel="stylesheet" href="style.css">
+
+<table style="width: 80%">
+<tr><!--table row-->
+	<th style="width: 20%">Tag</th><!--table header: only first row-->
+	<th style="width: 40%">Definition</th>
+	<th style="width: 40%">Example</th>
+</tr>
+
+<tr>
+	<td>&lt; p &gt;</td><!--table data-->
+	<td> Means to Start a Paragraph or Sentence</td>
+	<td> This is a paragraph that I have began. Here is another sentence I have started. </td>
+</tr>
+
+<tr>
+	<td>&lt; a &gt;</td>
+	<td> Defines a hyper link </td>
+	<td><p>Click <a href="https://teams.microsoft.com/">here</a> to go to microsoft teams website</td>
+</tr>
+
+<tr>
+	<td>&lt; h1 &gt;</td>
+	<td> defines headers </td>
+	<td> Mr. Kams Fake Drivers License </td>
+</tr>
+
+<tr>
+	<td>&lt; style &gt;</td>
+	<td> Defines style information for a document </td>
+	<td>  </td> 
+<!--<style>
+body {
+	background-color: black;
+	color: pink;
+	margin: 100px 50px;
+	/* margin: topbottom leftright; */
+	font-family: Arial;
+}
+</style>-->
+	<p> This sentence's style is changed</p></td>
+</tr>
+
+<tr>
+	<td>&lt; b &gt;</td>
+	<td> Defines bold text </td>
+	<td> <b> This sentence is bolded </b> </td>
+</tr>
+	
+<tr>
+	<td>&lt; em &gt;</td>
+	<td> Emphasizes a text </td>
+	<td><em> this sentence is emphasized </em></td>
+</tr>
+
+<tr>
+	<td>&lt; title &gt;</td>
+	<td> Defines a title  </td>
+	<td> The title of this file is Assignment 3 </td>
+</tr>
+
+<tr>
+	<td>&lt; img &gt;</td>
+	<td> Defines an Image </td>
+	<td> <img src="data:image/jpeg;base64,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" alt="Nike Shoes" width="450" height="252"> </td>
+</tr>
+
+<tr>
+	<td>&lt; mark &gt;</td>
+	<td> Defines marked or highlights text </td>
+	<td> <mark>This sentence is highlighted</mark> </td>
+</tr>
+
+<tr>
+	<td>&lt; video &gt;</td>
+	<td> Defines a video </td>
+	<td> <video width="160" height="120" controls>
+  <source src="https://www.youtube.com/watch?v=q0L8z4_teiI" type="https://www.youtube.com/watch?v=q0L8z4_teiI"></video> </td>
+</tr>
+
+<tr>
+	<td>&lt; th &gt;</td>
+	<td> Defines a table header </td>
+	<th> This is a table header </th>
+</tr> 
+
+<tr>
+	<td>&lt; ul &gt;</td>
+	<td> Defines an unordered list </td>
+	<td><ul><li>Flour</li><li>Milk</li><li>Eggs</li></ul></td>
+</tr>
+
+<tr>
+	<td>&lt; strong &gt;</td>
+	<td> Defines or Bolds a word that is important </td>
+	<td> <p>This word is <strong>strong</strong> </td>
+</tr>
+
+</table>
+</body>
+</html>

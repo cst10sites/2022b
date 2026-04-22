@@ -1,0 +1,25 @@
+body {
+	color: white;
+	background-repeat: no repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+li.a a {
+	display: block;
+	color: red;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 19px;
+	
+}
+
+ul.a {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+ 
+}

@@ -1,0 +1,36 @@
+body {
+		background-color: steelBlue;
+		margin: 50px;
+}
+
+div {
+	background-color: midnightBlue;
+	padding: 25px 50px;
+	color: SteelBlue;
+}
+
+h2 {
+	color: SteelBlue;
+}
+
+h1 {
+	color: SteelBlue;
+}
+
+a, h1 {
+	color: Silver;
+}
+
+th, td {
+	border: 2px solid silver;
+	text-align: left;
+	padding: 5px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+.highlight {
+	background-color: lightgray;
+}

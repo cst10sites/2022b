@@ -1,0 +1,63 @@
+<!DOCTYPE html!>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Final Project</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"> </script>
+
+<body style="background-image: url('https://i.guim.co.uk/img/media/a7fe7170defa865d2b96b829f05c5d8fa82d8edf/0_20_2201_1321/master/2201.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=72bbae118ff1631bcc0d1f837159a727');">
+<ul class="a">
+  <li class="a"><a  href="index.html">Home</a></li>
+  <li class="a"><a href="achievements.html">Achievements</a></li>
+  <li class="a"><a href="quiz.html">Quiz</a></li>
+  <li class="a"><a class="active" href="Competition.html">Competition</a></li>
+</ul>
+
+<h1>Lionel Messi</h1>
+<h2>Introduction</h2>
+<div id="title"><h1>Lionel Messi Quiz</h1></div>
+
+<div id="polarQuiz">
+<form id="quiz" name="quiz">
+	
+	<p>1. How many ballon d'ors has Messi won?</p>
+	<p><input type="radio" id="7" name="question1" value="7">a. 7</p>
+	<p><input type="radio" id="6" name="question1" value="6">b. 6</p>
+	<p><input type="radio" id="8" name="question1" value="8">c. 8</p>
+	
+	<p>2. At what age did Messi join the Barcelona Academy?</p>
+	<p><input type="radio" id="Age 15" name="question2" value="Age 15">a. Age 15</p>
+	<p><input type="radio" id="Age 17" name="question2" value="Age 17">b. Age 17</p>
+	<p><input type="radio" id="Age 13" name="question2" value="Age 13">c. Age 13</p>
+	<p><input type="radio" id="Age 14" name="question2" value="Age 14">d. Age 14</p>
+	
+	<p>3. How long was Messi with Barcelona?</p>
+	<p><input type="radio" id="20 years" name="question3" value="20 years">a. 20 years</p>
+	<p><input type="radio" id="16 years" name="question3" value="16 years">b. 16 years</p>
+	<p><input type="radio" id="21 years" name="question3" value="21 years">c. 21 years</p>
+	
+	<p>4. Who is Messi's international friend who recently passed away?</p>
+	<p><input type="radio" id="Ronaldinho" name="question4" value="Ronaldinho">a. Ronaldinho</p>
+	<p><input type="radio" id="Cristiano Ronaldo" name="question4" value="Cristiano Ronaldo">b. Cristiano Ronaldo</p>
+	<p><input type="radio" id="Ronaldo Nazario" name="question4" value="Ronaldo Nazario">c. Ronaldo Nazario</p>
+	<p><input type="radio" id="Diego Maradona" name="question4" value="Diego Maradona">d. Diego Maradona</p>
+	
+	<p>5. What team does Lionel Messi play for now?</p>
+	<p><input type="radio" id="Real Madrid" name="question5" value="Real Madrid">a. Real Madrid</p>
+	<p><input type="radio" id="PSG" name="question5" value="PSG">b. PSG</p>
+	<p><input type="radio" id="Manchester City" name="question5" value="Manchester City">c. Manchester City</p>
+	
+	<input type="button" id="button" value="Submit." onclick="finish()">
+	<input type="button" id="Resetbutton" value="Reset." onclick="reset()">
+</div>
+<div id = "afterSubmit">
+
+<p id="message" ></p>
+<p id="numberCorrect"></p>
+</div>
+</form>
+ <br></br>
+ <br></br>
+</body>
+</html>

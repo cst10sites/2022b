@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>HTML 4</title>
+<!--style tag used for INTERNAL CSS, link for EXTERNAL CSS-->
+<link rel="stylesheet" href="style.css">
+
+<h3>Egg Timer</h3>
+<form>
+    <label>How would you like your eggs?</label>
+    <select id="consistency"><!--no input for dropdown-->
+        <option value= 180>soft (3 Minutes)</option>
+        <option value= 360>Medium (6 Minutes)</option>
+        <option value= 600>hard(10 Minutes)</option>
+
+    </select>
+    <br><br>
+    <input type="button" value="Start" id="startBtn" onclick="startButton();"> 
+</form>
+
+<h2 id="timeDisplay">Time Left: 0.0 sec</h2>
+
+<!---JavaScript: make eternal script.js file!!!-->
+<p id="carDisplay"></p>
+<script src = "script.js"></script>
+</head>

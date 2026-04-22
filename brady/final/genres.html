@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Quiz From What You've Seen</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="script.js">
+</head>
+<body>
+    <style>
+        .menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%; 
+            height: 40px;
+        }
+        .container {
+            margin-top: 40px;
+        }
+    </style>
+    <div class="menu">
+	<h3>
+     <a href="index.html">Album Ratings and Reviews</a>
+<a href="Music Videos.html">Favorite Songs</a>
+<a href="Top10artistsbands.html">Top Ten bands</a>
+<a href="Genres.html">Quiz</a
+    </h3>
+	</div>
+<style>
+body {
+	background-color:black;
+	color: white;
+	}
+</style>
+</div>
+<br>
+<br>
+
+    <div class="positioning">
+        <h1>Quiz From What You've Seen</h1>
+        <br>
+        <br><br>
+            <form id="quiz">
+                <div>
+                    <h3 >1)What Was My Favorite Album On My List</h3>
+                    <p> <input type="radio" name="question1" value="IGOR">IGOR</p>
+                    <p><input type="radio" name="question1" value="Power Corruption And Lies">Power Corruption And Lies</p>
+                    <p><input type="radio" name="question1" value="Remain In Light">Remain In Light</p>
+
+                </div>
+                <div>
+                    <br>
+                    <h3>2)Whats my Favorite Song?</h3>
+                    <p><input type="radio" name="question2" value="Paranoid Android">Paranoid Android</p>
+                    <p><input type="radio" name="question2" value="Pop Song 89">Pop Song 89</p>
+                    <p><input type="radio" name="question2" value="M.E">M.E</p>
+                    
+                </div>
+                <div>
+                    <br>
+                    <h3>3)What Is My Second Favorite Band?</h3>
+                    <p><input type="radio" name="question3" value="The Cure">The Cure</p>
+                    <p><input type="radio" name="question3" value="Talking heads">Talking heads</p>
+                    <p><input type="radio" name="question3" value="Radiohead">Radiohead</p>
+
+                </div>
+
+                <div>
+                    <br>
+                    <h3>What Was My LEAST Favorite Album?</h3>
+                    <p><input type="radio" name="question4" value="Dirt">Dirt</p>
+                    <p><input type="radio" name="question4" value="Metalica">The Black Album</p>
+                    <p><input type="radio" name="question4" value="OK Human">OK Human</p>
+
+                </div>
+                <div>
+                    <br>
+					<p style="color:red;">HARD QUESTION</p>
+                    <h3>Who Was The Singer Of The Talking Heads I Mentioned A ton?</h3>
+                    <p><input type="radio" name="question5" value="David Byrne">David Byrne</p>
+                    <p><input type="radio" name="question5" value="Thom Yorke">Thom Yorke</p>
+					<p><input type="radio" name="question5" value="Tina Weymouth">Tina Weymouth</p>
+                </div>
+                <br>
+                <input class="finished" type="button" name="" value="Finished" onclick="check()">
+                <br><br><br>
+                <div class="results">
+                    <p id="results"></p>
+                    <p id="message"></p>
+                </div>
+
+            </form>
+        <br><br><br>
+    </div>
+<script>
+function check() {
+    var correct = 0;
+
+    var q1 = document.getElementsByName('question1');
+    for(var i = 0; i < q1.length; i++) { 
+        if(q1[i].checked){
+            if(i == 0) {
+                correct++;
+            }
+        }
+    }
+
+    var q2 = document.getElementsByName('question2');
+    for(var i = 0; i < q2.length; i++) { 
+        if(q2[i].checked){
+            if(i == 2) {
+                correct++;
+            }
+        }
+    }
+
+    var q3 = document.getElementsByName('question3');
+    for(var i = 0; i < q3.length; i++) { 
+        if(q3[i].checked){
+            if(i == 1) {
+                correct++;
+            }
+        }
+    }
+
+    var q4 = document.getElementsByName('question4');
+    for(var i = 0; i < q4.length; i++) { 
+        if(q4[i].checked){
+            if(i == 1) {
+                correct++;
+            }
+        }
+    }
+
+    var q5 = document.getElementsByName('question5');
+    for(var i = 0; i < q5.length; i++) { 
+        if(q5[i].checked){
+            if(i == 0) {
+                correct++;
+            }
+        }
+    }
+
+    document.getElementById("results").innerHTML = "You got " + correct + " Questions Right! <br>";
+    if(correct > 3) {
+        document.getElementById("message").innerHTML = "You know my music taste better than me!";
+    }
+    else{
+        document.getElementById("message").innerHTML = "Nice try you'll get'em next time";
+    }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Egg</title>
+</head>
+<body>
+
+
+
+<h1>Eggs</h1>
+
+
+<form>
+    <label>How long do you want to cook your egg</label>
+    <select id="consistency"><!--no input for dropdown-->
+        <option value="Soft">3 minutes (Soft) </option>
+        <option value="Medium">6 minutes (Medium) </option>
+        <option value="Hard">10 minutes (Hard) </option>
+    </select>
+    <br>
+    <input type="button" value="Start" id="startBtn" onclick="startButton ();">
+	<br> 
+</form>
+
+
+<h2 id="timeDisplay">Time 0.0</h2>
+<p id="carDisplay"></p>
+
+<script>
+var startTimer = false;
+var timeLeft = 0;
+function startButton () {
+	var consistency = document.getElementById("consistency").value;
+	
+	
+	
+	if (startTimer == false) {
+		if (consistency == "Soft") {
+			timeLeft = 180;
+		}
+		if (consistency == "Medium") {
+			timeLeft = 360;
+		}
+			if (consistency == "Hard") {
+			timeLeft = 600;
+		}
+		// timeLeft = 180;  //change later based on consistency soft 3*60
+		startTimer = true
+		document.getElementById("startBtn").value = "stop";
+	}
+	else {
+		timeLeft = 0;
+		startTimer = false;
+	}
+}
+	
+function updateTimer() {
+	if (startTimer == true) {
+		// deduct time
+		if (timeLeft > 0.1 ) {
+			timeLeft = timeLeft - 0.1;
+		}
+			
+		
+
+		// display time
+		if (timeLeft > 60) {
+			var timeLeftMin = Math.floor(timeLeft / 60);
+			var timeLeftSec = Math.floor(timeLeft % 60);
+			document.getElementById("timeDisplay").innerHTML
+				= "Time Left: " + timeLeftMin + " min " + timeLeftSec;
+
+			
+		}
+		else {
+			document.getElementById("timeDisplay").innerHTML
+				= "Time Left: " + timeLeft.toFixed(1) + " sec";
+				
+		
+		}		
+	}
+}
+		
+	
+
+
+setInterval(updateTimer, 100);
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+.sidebar {
+	height: 96.5%;
+	width: 300px;
+	padding: 3px;
+	position: fixed;
+	background-color: forestgreen;
+	color: ghostwhite;
+	font-family: calibri;
+}
+.content {
+	margin-left: 200px; 
+	margin-right: 10px; 
+	margin-bottom: 100px;
+	padding: 15px;
+	color: ghostwhite;
+	background-color: green;
+	position: fixed;
+	overflow-y: scroll;
+	height: 93.9%;
+	font-family: Helvetica;
+	width: 1625px
+	
+}
+
+.sidebar a {
+	color: ghostwhite;
+	font-size: 150%;
+	text-decoration: none; 
+	display: block;
+	
+}
+
+.sidebar a:hover {
+	color: ghostwhite;
+	background-color: gray;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 200%;
+}
+
+.textbox {
+	background-color: #34568b;
+	color: ghostwhite;
+	font-size: 20px;
+	border-style: inset;
+	border-width: 6px;
+	border-color: lightgreen;
+	padding: 50px;
+	top: 60px;
+	right: 150px;
+	left: 160px;
+}
+
+
+.clearfix {
+  overflow: auto;
+}
+
+.dropdown {
+	color: ghostwhite;
+	background-color: green;
+	font-size: 20px;
+	border-style: inset;
+	border-width: 2px;
+	border-color: mediumseagreen;
+	
+}
+
+
+h1 {
+	background-color: #34568b;
+	padding: 40px;
+	text-align: center;
+	font-size: 35px;
+	color: ghostwhite;
+	border-style: inset;
+	border-width: 6px;
+	border-color: lightgreen;
+	
+}
+
+nav {
+	float: left;
+	width: 30%;
+	background: darkgreen;
+	padding: 20px;
+}
+nav ul {
+	list-style-type:none;
+	padding: 10;
+}
+
+footer {
+	background-color: white;
+	padding: 12px;
+	text-align: center;
+	color: black;
+}
+
+body {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: lightsteelblue;
+
+  
+}
+
+
+button {
+	height:103px; 
+	width:278px;
+	color: darkcyan;
+} 
+
+

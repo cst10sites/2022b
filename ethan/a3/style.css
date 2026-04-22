@@ -1,0 +1,60 @@
+body {
+	background-color: white;
+	margin: 50px;
+	font-family: Arial;
+	color: black;
+}
+
+
+ table tr#ROW  {background-color:gray; color:black;}
+ 
+  table tr#ROW2  {background-color:gray; color:black;}
+  
+   table tr#ROW3  {background-color:gray; color:black;}
+   
+table th#th {
+background-color: lightsteelblue; color:black;
+}
+table th#th2 {
+background-color: lightsteelblue; color:black;
+}
+table th#th3 {
+background-color: lightsteelblue; color:black;
+}
+	
+
+
+h2 {
+	color: black;
+}
+
+a, h1 {
+	color: black;
+}
+
+th, td {
+	border: 2px solid black;
+	text-align: center;
+	padding: 5px;
+}
+
+
+
+table {
+	border-collapse: collapse;
+	 color: black;
+}
+tr:nth-child(even) {background-color: #dddddd;} 
+tr:nth-child(odd) {background-color: lavenderblush;} 
+
+a {
+	color: blue;
+}
+
+a:visited {
+	color: purple;
+}
+
+a:hover {
+	color: darkblue;
+}

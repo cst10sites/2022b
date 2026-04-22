@@ -1,0 +1,39 @@
+body {
+	background-color: indigo;
+	margin: 50px;
+}
+
+
+
+div{
+	
+	background-color: black;
+	padding: 50px 25px;
+	color: coral;
+	
+}
+
+h1 {
+	color: coral;
+}
+
+h2 {
+	color: cyan;
+}
+
+
+a, h1 {
+	color: coral;
+}
+
+
+th, td {
+	border: 2px solid;
+	color: cyan;
+	text-align: Center;
+	padding: 5px;
+}
+
+table {
+	border-collapse: collapse;
+}

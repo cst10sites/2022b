@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="favicon.ico">
+<link rel="stylesheet" href="style.css">
+<title>Assingment 4</title>
+</head>
+<body>
+<h1>Egg Timer</h1>
+<h2>Timer</h2>
+<p>Please select how you want your egg to be done:</p>
+<form>
+    <label>Wanted Egg Type:</label>
+    <select id="eggValue"><!--no input for dropdown-->
+		
+        <option value="720">hard (12 minutes)</option>
+        <option value="360">medium(6 minutes)</option>
+        <option value="180">soft(3 minutes)</option>
+    </select>
+    <br>
+    <input type="button" value="Start" id="startBTN" onclick="checkEgg();">
+    <button onclick="resetTimer();">Reset</button><br> 
+</form>
+
+
+ <h2 id="timeDisplay"> Time Left 0secs</h2>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

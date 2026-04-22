@@ -1,0 +1,26 @@
+body {
+		background-color:  blue;
+		margin: 50px;
+}
+
+div {
+		background-color: black;
+		padding: 25px 50px;
+		color: white;
+}
+
+h2 { 
+	color: cyan;
+}
+a, h1 {
+	color: yellow;
+}
+
+th, td {
+		border: 2px solid white;
+		text-align: left;
+}
+
+table {
+		border-collapse: collapse;
+}

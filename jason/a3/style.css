@@ -1,0 +1,32 @@
+body {
+	background-color: blue;
+	margin: 25px;
+}
+
+div {
+	background-color: black;
+	color: white;
+	padding: 25px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	text-align: left;
+	border: 2px solid white;
+	padding: 5px;
+}
+
+h2 {
+	color: white;
+}
+
+span {
+	color: lime;
+}
+
+
+
+

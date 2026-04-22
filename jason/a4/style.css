@@ -1,0 +1,32 @@
+body {
+	background-color: black;
+	text-align: center;
+	font-family: Arial;
+	color: white;
+}
+
+#title {
+	color: cornflowerblue;
+}
+
+h1 {
+	text-align: left;
+}
+
+input {
+	margin: 10px;
+	outline-style: outset;
+	outline-color: red;
+	font-size: 20px;
+	width: 20%;
+}
+
+label {
+	font-size: 25px;
+}
+
+select{
+	font-size: 15px;
+	outline-style: ridge;
+	outline-color: green;
+}

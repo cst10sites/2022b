@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="egg.ico">
+<link rel="stylesheet" href="style.css">
+<title>Assignment 4</title>
+</head>
+<body>
+
+
+<h1 id="title">EGGCELLENT TIMER</h1>
+<hr width="90%">
+<form>
+	<label>How do you want your eggs?</label>&nbsp;
+	<select id="consistency">
+		<option value="180">Soft (3 min)</option>
+		<option value="360">Medium (6 min)</option>
+		<option value="720">Hard (12 min)</option>                   
+	</select>
+	<br>
+	<input type="button" id="startBtn" value="Start" onclick="startButton()";>
+	<input type="button" id="pauseBtn" value="Pause" onclick="pauseButton()";>
+	<!--<input type="button" id="stopBtn" value="Reset" onclick="resetButton()";>-->
+</form>
+
+<h2 id="timeDisplay">Time Left: 0.0 sec</h2>
+
+<script src="script.js"></script>
+</body>
+</html>

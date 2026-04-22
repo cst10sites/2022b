@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<meta charset="UTF-8">
+<script src="script.js"> </script>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Final Project </title>
+
+<link rel="stylesheet" href="index.css">
+
+
+ <link rel="shortcut icon" type="image/x-icon" href="unnamed.jpg">
+</head>
+
+
+
+<body style= "background-image:  url(download.png);">
+
+<div class="topnav">
+<a href="index (2).html">Home and quiz</a>
+   <br><br><a href="index.html">About apple</a>
+   <br><br><a href="index (the creators).html">The creators of apple</a>
+   <br><br><a href="index (iphones).html">Apple iphones</a>
+   <br><br><a href="index (airpods).html">Airpods</a>
+   <br><br><a href="index (computers).html">Apple computers</a>
+  
+</div>
+
+
+<section>
+  <img class="mySlides" src="7853248e-afd0-4fcc-bd46-cd1b2ad26db3.jpeg" alt="garage"
+  style="width:100%">
+  <img class="mySlides" src="macintosh-128kb.jpg" alt="oldcomputer"
+  style="width:100%">
+  <img class="mySlides" src="55ca006f371d2223518be2db.jpeg" alt="starters"
+  style="width:100%">
+  <img class="mySlides" src="Apple-iPhone13-color-lineup-220308_big_carousel.jpg.slideshow-medium_2x.jpg" alt="iphone13"
+  style="width:100%">
+</section>
+
+
+
+<div style="padding:50px; text-align:center;">
+  <h2>Apple</h2>
+  <p>Apple Inc. is an American multinational technology company that specializes in consumer electronics, software and online services headquartered in Cupertino, California, United States.
+  It was founded april 1, 1976 and is now worth 2,226.92 B.
+  </p>
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+
+</script>
+
+<div id= "title">
+</div>
+ <div id="title"><h1>Quiz</h1></div>
+
+<div id="polarQuiz">
+<form id="quiz" name="quiz">
+	
+	<p>1.who is the main creator of Apple?</p>
+	<p><input type="radio" id="steve wozniak" name="question1" value="steve wozniak">a. Steve Wozniak</p>
+	<p><input type="radio" id="steve jobs" name="question1" value="steve jobs">b. Steve Jobs</p>
+	<p><input type="radio" id="matthew owens" name="question1" value="matthew owens">c. Matthew owens </p>
+	
+	<p>2. when did the first phone come out?</p>
+	<p><input type="radio" id="2007" name="question2" value="2007">a. 2007</p>
+	<p><input type="radio" id="2002" name="question2" value="2002">b. 2006</p>
+	<p><input type="radio" id="2003" name="question2" value="3003">c. 2003</p>
+
+	
+	<p>3. how many types of airpods are there?</p>
+	<p><input type="radio" id="1" name="question3" value="1">a. 1 </p>
+	<p><input type="radio" id="2" name="question3" value="2">b. 2</p>
+	
+	<p>4. how old was steve jobs when he started Apple?</p>
+	<p><input type="radio" id="22" name="question4" value="22">a. 22</p>
+	<p><input type="radio" id="20" name="question4" value="20">b. 20</p>
+	<p><input type="radio" id="26" name="question4" value="26">c. 26</p>
+	
+	
+	<p>5. how much is apple worth today?</p>
+	<p><input type="radio" id="2,226.92 B" name="question5" value="2,226.92 B">a. 2,226.92 B</p>
+	<p><input type="radio" id="3,800.79B League" name="question5" value=" 3,800.79B">b.  3,800.79B</p>
+	<p><input type="radio" id="6,987.23B" name="question5" value=" 6,987.23B">c. 6,987.23B</p>
+	
+
+	
+	<input type="button" id="button" value="I'm Finished." onclick="finish()">
+	<input type="button" id="Resetbutton" value="Reset." onclick="reset()">
+</div>
+<div id = "afterSubmit">
+
+<p id="message" ></p>
+<p id="numberCorrect"></p>
+</div>
+</form>
+    </div>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="favicon.ico">
+<title>Lesson 6</title>
+</head>
+<body>
+
+
+<form>
+	<label>How do you want your eggs</label>
+	<select id="consistency">
+	<option value="180">soft</option>
+	<option value="360">medium</option>
+	<option value="720">hard</option>
+	</select>
+	<br><br>
+	<input type="button" id="startBtn" value="Start" onclick="startButton()";>
+	
+</form>
+<h2 id="timeDisplay"> Time Left 0.0</h2>
+
+<script>
+var startTimer = false;
+var timeLeft = 0;
+var nclicks = 0;
+function startButton() {
+	
+	// car consistency = value of id = "consistency" {soft, medium, hard}
+
+
+
+
+if (startTimer == false) {
+	startTimer = true;
+	if (nclicks == 0) {
+		timeLeft = document.getElementById("consistency").value; // change later depending on consistency, soft: 180
+	}
+	document.getElementById("startBtn").value = "Stop";
+	
+	} else {
+		startTimer = false;
+		document.getElementById("startBtn").value = "Start";
+	}
+nclicks = nclicks + 1;
+}
+
+// else { ...
+
+function updateTimer() { 
+	if (startTimer == true) {
+		if (timeLeft <= 60) {
+		document.getElementById("timeDisplay").innerHTML
+		= "Time Left: " + timeLeft.toFixed(1) + " sec";
+		}
+		else { 
+			var timeLeftMin = Math.floor(timeLeft / 60);
+			var timeLeftSec = Math.floor(timeLeft % 60);
+			document.getElementById("timeDisplay").innerHTML
+				= "Time Left: "+ timeLeftMin + " min" + timeLeftSec + " sec"	;
+		}
+		if (timeLeft > 0.1) { 
+			timeLeft = timeLeft - 0.1;
+		}
+		
+		else  { timeLeft = 0;
+		startTimer = false;
+		document.getElementById("startBtn").value = "Start";
+		}
+	}
+}
+function stopButton() {
+	timeleft = 0;
+	document.getElementById("timeDisplay").value = "0.0"; 
+}
+setInterval(updateTimer, 100);
+</script>
+
+</body>
+</html>

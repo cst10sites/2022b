@@ -1,0 +1,25 @@
+body {
+    background-color: white;
+    margin: 50px;
+}
+div {
+    background-color: white;
+    padding: 25px 50px;
+    color:  black;
+}
+h2 {
+    color: black;
+}
+a, h1 {
+    color: black;
+}
+
+th, td {
+	border: 2px solid blue;
+	text-align: center;
+	padding: 5px;
+}
+
+table {
+	border-collapse: collapse;
+}

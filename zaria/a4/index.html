@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="favicon.ico">
+<title>HTML Assignment 4: Countdown Timer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Countdown Timer</h1>
+<p>Use this countdown timer to cook eggs of different doneness.</p>
+<form>
+	<label>How would you like the egg? Select the doneness of eggs</label>
+	<select id="consistency">
+		<option value="Soft">Soft(3 mins)</option>
+		<option value="Medium">Medium(6 mins)</option>
+		<option value="Hard">Hard(12 mins)</option>
+	</select>
+	<br>
+	<br>
+	<input type="button" value="Start" id="StartButton" onclick="startButton();">
+	<input type="button" value="Reset" onclick="resetButton();">
+</form>
+<h2 id="timeDisplayed">Time left: 0.0 sec</h2>
+<p>Click the "Stop Music" button to stop music after the egg is done.</p>
+<input type="button" value="Stop Music" onclick="stopMusic();">
+<script src="script.js"></script>
+</body>
+</html>

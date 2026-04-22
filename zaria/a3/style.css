@@ -1,0 +1,24 @@
+body {
+	background-color: darkseagreen;
+	margin: 50px
+}
+
+div {
+	background-color: black;
+	padding: 25px 50px;
+	color: white;
+}
+
+h1 {
+	color: sienna;
+}
+
+th,td {
+	border: 2px solid burlywood;
+	text-align: center;
+	padding: 5px;
+}
+
+table{
+	border-collapse: collapse;	
+}

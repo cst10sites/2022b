@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="favicon.ico">
+<title>Final Project : Fishing Cat</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="topnav">
+
+<a target="_blank" href="index.html">Home</a>
+<a target="_blank" href="behaviour.html">Behaviour and Diet</a>
+<a target="_blank" href="threat.html">Threat and Conservation</a>
+<a target="_blank" href="history.html">History</a>
+<a target="_blank" class="active" href="quiz.html">Quiz</a>
+
+</div>
+
+
+<br>
+<br>
+
+<h1>Quiz</h1>
+<div class="maintext">
+<p><strong>Let's see how well you learned about the fishing cat!</strong></p>
+<form style="font-family: Helvetica;" id="quiz">
+    <label>1.Where is the fishing cat currently found?</label>
+    <br>
+    <input id="question1" type="radio" value="South and Southeast Asia" name="q1">
+    <label>A. South and Southeast Asia</label>
+    <br>
+    <input type="radio" value="North America" name="q1">
+    <label>B. North America</label>
+    <br>
+    <input type="radio" value="South America" name="q1">
+    <label>C. South America</label>
+    <br>
+    <input type="radio" value="Europe" name="q1">
+    <label>D. Europe</label>
+	<br>
+	<label id="question1Check"></label>
+	<br>
+	
+    <label>2.When does the fishing often finds food?</label>
+    <br>
+    <input type="radio" value="In the morning" name="question2">
+    <label>A. In the morning</label>
+    <br>
+    <input type="radio" value="At noon" name="question2">
+    <label>B. At noon</label>
+    <br> 
+    <input type="radio" value="In the afternoon" name="question2">
+    <label>C. In the afternoon</label>
+    <br>
+    <input id="question2" type="radio" value="At night" name="question2">
+    <label>D. At night</label>
+    <br>
+	<label id="question2Check"></label>
+	<br>
+
+    <label>3.What can the fishing cat eat?</label>
+    <br>
+    <input type="radio" value="Fish" name="question3">
+    <label>A. Fish</label>
+    <br>
+    <input type="radio" value="Small Mammals" name="question3">
+    <label>B. Small Mammals</label>
+    <br>
+    <input type="radio" value="Birds" name="question3">
+    <label>C. Birds</label>
+    <br>
+    <input id="question3" type="radio" value="All the above" name="question3">
+    <label>D. All the above</label>
+    <br>
+	<label id="question3Check"></label>
+	<br>
+
+    <label>4.What is the fishing cat's major threat?</label>
+    <br>
+    <input type="radio" value="Overpopulation" name="question4">
+    <label>A. Overpopulation</label>
+    <br>
+    <input id= "question4" type="radio" value="The destruction of wetlands" name="question4">
+    <label>B. The destruction of wetlands</label>
+    <br>
+    <input type="radio" value="Natural predators" name="question4">
+    <label>C. Natural predators(except humans)</label>
+    <br>
+    <input type="radio" value="Invasive alien species" name="question4">
+    <label>D. Invasive alien species</label>
+    <br>
+	<label id="question4Check"></label>
+	<br>
+
+    <label>5.What is the fishing cat's conservation status?</label>
+    <br>
+    <input type="radio" value="Vulnerable" name="question5">
+    <label>A. Vulnerable</label>
+    <br>
+    <input type="radio" value="Near Threatened" name="question5">
+    <label>B. Near Threatened</label>
+    <br>
+    <input id="question5" type="radio" value="Endangered" name="question5">
+    <label>C. Endangered</label>
+    <br>
+    <input type="radio" value="Extinct in the Wild" name="question5">
+    <label>D. Extinct in the Wild</label>
+    <br>
+	<label id="question5Check"></label>
+	<br>
+
+    <label>6.Which month is the Fishing Cat Month?</label>
+    <br>
+    <input type="radio" value="March" name="question6">
+    <label>A. March</label>
+    <br>
+    <input type="radio" value="June" name="question6">
+    <label>B. June</label>
+    <br>
+    <input id="question6" type="radio" value="February" name="question6">
+    <label>C. February</label>
+    <br>
+    <input type="radio" value="December" name="question6">
+    <label>D. December</label>
+    <br>
+	<label id="question6Check"></label>
+	<br>
+
+    <label>7.When is the first fishing cat's synonym, Felis viverrinus, proposed?</label>
+    <br>
+    <input id="question7" type="radio" value="1833" name="question7">
+    <label>A. 1833</label>
+    <br>
+    <input type="radio" value="1858" name="question7">
+    <label>B. 1858</label>
+    <br>
+    <input type="radio" value="1936" name="question7">
+    <label>C. 1936</label>
+    <br>
+    <input type="radio" value="1887" name="question7">
+    <label>D. 1887</label>
+    <br>
+	<label id="question7Check"></label>
+	<br>
+	
+    <label>8.How does the fishing cat catch fishes in shallow water?</label>
+    <br>
+    <input type="radio" value="Use its tail" name="question8">
+    <label>A. Use its tail</label>
+    <br>
+    <input id="question8" type="radio" value="Scoop with its paws" name="question8">
+    <label>B. Scoop with its paws</label>
+    <br>
+    <input type="radio" value="Wait under water" name="question8">
+    <label>C. Wait under water</label>
+    <br>
+    <input type="radio" value="All the above" name="question8">
+    <label>D. All the above</label>
+    <br>
+	<label id="question8Check"></label>
+	<br>
+	
+	<input type="button" id="finishButton" value="Finish" onclick="check();">
+    <input type="button" id="restartButton" value="Restart" onclick="restart();">
+    <br>
+    <label id="quizMessage"></label>
+    <br>
+    <label id="correct"></label>
+</form>
+
+<script src="script.js"></script>
+</div>
+
+</body>
+</html>

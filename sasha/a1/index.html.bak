@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>A Bit About Me!</title>
+<style>
+body {
+    background: linear-gradient(to bottom, #d0ffe0 0%, #c0e0f0 100%);
+}
+</style>
+</head>
+<body>
+<h1>About Me</h1>
+<h2>My Life</h2>
+<p>Hi my name is Sasha and this some things about me. I like to draw but I may not be that good.
+I am intrigued by math problems and like to go over them with my dad at the end of the day.
+I like to play the guitar but I know I can't sing with it, <em>at all</em>. A website that I visit a lot is
+<a target="_blank" href="https://www.wolframalpha.com/">Wolfram|Alpha</a>.
+It's really useful for calculating large numbers or just working with complex calculations.</p>
+<img alt="guitar" style="width: 20%;"
+src="https://c1.zzounds.com/media/productmedia/fit,2018by3200/quality,85/7_Body_Left_Front_NA-2d3740525de44eaf9ee292990c4327d8.jpg">
+<p>I chose computer science because I am interested in this subject and want to actually get an education in it.
+I started with Java Script and I'm learning Python right now.
+It's a skill that will definitely be useful for me later in my life. 
+I hope to learn technics to do problem solving and figuring out what's wrong.</p>
+<p><strong><span style="color: red;">I, Sasha, fully acknowledge that all homepage files must be renamed to index.html. 
+I have tested this website on mrkam.ca and will also do so with upcoming assignments. 
+Failure to do so will result in severe loss of marks.</span></strong></p>
+</body>
+</html>

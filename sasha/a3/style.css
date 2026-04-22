@@ -1,0 +1,40 @@
+body {
+	background-color: #505050;
+	margin: 20px;
+}
+h1 {
+	color: #20f0ff;
+}
+h4 {
+	margin: 2px;
+}
+p {
+	margin: 2px;
+}
+div {
+	background-color: #000000;
+	color: #ffffff;
+	padding: 12px;
+}
+table {
+	border-collapse: collapse;
+}
+td {
+	text-align: left;
+	border: 2px solid white;
+	padding: 4px;
+}
+th {
+	text-align: center;
+	border: 1px solid white;
+	padding: 3px;
+	color: #20f0ff;
+}
+a {
+	color: #00b0FF;
+}
+a:visited {
+	color: #A0ffA0;
+}
+a:hover {
+	color: #A060FF;

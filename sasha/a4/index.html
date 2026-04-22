@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="favicon.ico">
+<title>Assignment 4</title>
+</head>
+<body>
+<h1>Egg Boiling Timer</h1>
+<p>
+Go visit
+<a href="https://www.foodnetwork.com/recipes/the-perfect-boiled-eggs-3672186" target="_blank">this website</a>
+for instructions on how to boil the eggs.
+</p>
+<p>
+For information on what an egg is, if you are unaware, please visit 
+<a href="https://en.wikipedia.org/wiki/Egg_as_food" target="_blank">this website.</a>
+</p>
+<h3>Select the texture of the egg:</h3>
+<div>
+<form>
+	<select id="timeNeeded">
+		<option value="180">Soft - 3 min</option>
+		<option value="360">Medium - 6 min</option>
+		<option value="720">Hard - 12 min</option>
+	</select>
+</form>
+<br>
+<button onClick="startButton();" id="startBtn">Start</button>
+<button onClick="resetTimer();">Reset</button>
+<h2 id="timeDisplay">Time left:</h2>
+<h2 id="alarm">Ready</h2>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
